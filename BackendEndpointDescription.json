@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "f2d04ebf-d280-42ed-9047-767d1b367a02",
+		"name": "RSubOne",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Patch Infection State",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"state\": \"CONFIRMED\",\n\t\"userId\": \"5e76413a1b75054cf946f868\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/v0/_self",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"v0",
+						"_self"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Subscribe",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"contactPersonIds\": [\"5e76413a1b75054cf946f868\"]\n\t\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:80/v0/_self/notifications",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"v0",
+						"_self",
+						"notifications"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:80/v0/",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"v0",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": []
+}
