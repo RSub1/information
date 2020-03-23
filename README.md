@@ -5,7 +5,7 @@ In diesem Repo werden allgemeine Informationen die übergreifende Relevanz haben
 - BackendEndpointDescription.json Beschreibt den Endpoint des Backendservices und kann in Postman importiert werden
 
 ## Projekt Links
-- Projektdefinition https://docs.google.com/document/d/1oXkDO2j0cBdCdX4oIwrJUq3YTSz5peli750E3gHRG64/edit
+- Projektdefinition https://devpost.com/software/rsub1
 - Mockups v0.1 https://xd.adobe.com/view/f28316c7-da7f-42b2-5087-84f1db62a274-84b2/
 
 
